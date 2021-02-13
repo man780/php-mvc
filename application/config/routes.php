@@ -2,10 +2,7 @@
 
 return [
 
-	'' => [
-		'controller' => 'main',
-		'action' => 'index',
-	],
+	
 	
 	'account/login' => [
 		'controller' => 'account',
@@ -15,5 +12,10 @@ return [
 	'account/register' => [
 		'controller' => 'account',
 		'action' => 'register',
+	],
+
+	'' => [
+		'controller' => 'main',
+		'action' => 'index',
 	],
 ];
