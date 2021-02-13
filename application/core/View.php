@@ -46,4 +46,4 @@ class View {
 		exit(json_encode(['url' => $url]));
 	}
 
-}	
+}
