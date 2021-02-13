@@ -6,8 +6,8 @@ use application\core\Model;
 
 class Main extends Model {
 
-	public function getNews() {
-		$result = $this->db->row('SELECT title, description FROM news');
+	public function getTasks() {
+		$result = $this->db->row('SELECT `fio`, `email` ,`text` FROM tasks');
 		return $result;
 	}
 

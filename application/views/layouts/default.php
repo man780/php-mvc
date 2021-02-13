@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title><?php echo $title; ?></title>
-	<script src="/public/scripts/jquery.js"></script>
-	<script src="/public/scripts/form.js"></script>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="container">
+	<h1>Тестовое задание.</h1>
+	<h2>Демонстрация MVC на PHP с минимальным кодом</h2>
 	<?php echo $content; ?>
+</div>
 </body>
 </html>
