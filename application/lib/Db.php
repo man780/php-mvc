@@ -9,8 +9,7 @@ class Db {
 	protected $db;
 	
 	public function __construct() {
-		$config = require 'application/config/db.php';
-		$this->db = new PDO('mysql:host='.$config['host'].';dbname='.$config['name'].'', $config['user'], $config['password']);
+		$this->db = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
 	}
 
 	public function query($sql, $params = []) {
