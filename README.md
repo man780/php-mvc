@@ -1,2 +1,10 @@
-# php-framework
-Simple PHP OOP framework based on mvc
+# Тестовое задание.
+> Демонстрация MVC на PHP с минимальным кодом
+
+
+## Можно включить режим разработчика
+
+Добавте в самом начале **index.php** этот код
+```sh
+require 'application/lib/Dev.php';
+```
